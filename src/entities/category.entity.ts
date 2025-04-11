@@ -1,16 +1,16 @@
 type CategoryPros = {
-	id?: string;
+	_id?: string;
 	title: string;
 	color: string;
 };
 
 export class Category {
-	public id?: string;
+	public _id?: string;
 	public title: string;
 	public color: string;
 
-	constructor({ id, color, title }: CategoryPros) {
-		this.id = id;
+	constructor({ _id, color, title }: CategoryPros) {
+		this._id = _id;
 		this.title = title;
 		this.color = color.toUpperCase();
 	}

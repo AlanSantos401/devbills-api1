@@ -8,3 +8,5 @@ export const routes = Router();
 
 routes.use('/', baseRoutes);
 routes.use('/categories', categoriesRoutes);
+
+
